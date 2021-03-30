@@ -64,4 +64,30 @@ namespace Chords {
             music.playTone(587, music.beat(BeatFraction.Half))
         })
     }
+
+    //% block
+    export function A_Major() {
+        timer.background(function () {
+           music.playTone(440, music.beat(BeatFraction.Half)) 
+        })
+        timer.background(function () {
+            music.playTone(554, music.beat(BeatFraction.Half))
+        })
+        timer.background(function () {
+            music.playTone(659, music.beat(BeatFraction.Half))
+        })
+    }
+
+    //% block
+    export function B_Major() {
+        timer.background(function () {
+           music.playTone(494, music.beat(BeatFraction.Half)) 
+        })
+        timer.background(function () {
+            music.playTone(622, music.beat(BeatFraction.Half))
+        })
+        timer.background(function () {
+            music.playTone(740, music.beat(BeatFraction.Half))
+        })
+    }
 }
